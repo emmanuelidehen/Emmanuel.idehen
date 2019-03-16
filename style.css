@@ -1,0 +1,142 @@
+
+html,body{
+    background-color: #191919;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Source Code Pro', helvetica;
+	font-size: 75px;
+	position: relative;
+    top: 36% !important;
+    letter-spacing: 3px;
+}
+
+.container {
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    text-align: center;
+}
+
+.lastname {
+    color: #A49365;
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons {
+    position: relative;
+    top: 38%;
+    margin: 0 auto;
+    /*width: 28%;*/
+    width: 100%;
+}
+
+.fa {
+    color: white;
+    padding-left: 2.4%;
+    padding-right: 2.4%;
+    -o-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -khtml-transition: color 0.2s linear;
+    -webkit-transition: color 0.2s linear;
+    -ms-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
+
+.fa:hover {
+    color: #A49365;
+}
+
+.lastname{
+    display: inline;
+    /*color: white;*/
+    -o-transition: color 0.4s linear;
+    -moz-transition: color 0.4s linear;
+    -khtml-transition: color 0.4s linear;
+    -webkit-transition: color 0.4s linear;
+    -ms-transition: color 0.4s linear;
+    transition: color 0.4s linear;
+    display: inline;
+}
+.firstname{
+    -o-transition: color 0.4s linear;
+    -moz-transition: color 0.4s linear;
+    -khtml-transition: color 0.4s linear;
+    -webkit-transition: color 0.4s linear;
+    -ms-transition: color 0.4s linear;
+    transition: color 0.4s linear;
+    display: inline;
+}
+.firstname:hover{
+    color: #A49365;
+
+}
+
+.lastname:hover {
+    /*color: #3F51B5;*/
+}
+
+.aboutcontainer{
+    height: 550px;
+    top: 13.5% !important;
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+
+.special{
+    color: #A49365;
+    display: inline;
+}
+
+.about{
+    color: white;
+    font-family: 'Source Code Pro', helvetica;
+    font-size: 25.5px;
+    position: relative;
+    padding: 3%;
+    text-align: left;
+    top:18%
+
+}
+
+.lit{
+    left: 25%;
+    bottom: 10%;
+    /*background-color: red;*/
+    position: absolute;
+
+}
+
+@media (max-width: 950px) {
+
+    h1 {
+        font-size: 45px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    h1 {
+        top: 24% !important;
+    	font-size: 35px;
+    }
+    .icons {
+        top: 26%;
+    }
+    .fa {
+
+    }
+
+}
